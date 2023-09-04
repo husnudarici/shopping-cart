@@ -6,8 +6,6 @@ import Products from './components/Products/Products';
 function App() {
     const [cart, setCart] = useState([]);
 
-    console.log(cart);
-
     return (
         <div className="container mx-auto">
             <Header cart={cart} />
